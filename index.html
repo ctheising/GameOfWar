@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>WAR</title>
+  <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="css/cards.css">  
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <header class="jumbotron">
+    <h1>WAR</h1>
+       <h4 class="inPlay">Good luck!</h4>
+    <button type=button class="btn btn-primary btn-lg inMenu" id="play"> Play</button>
+    <button type=button class="btn btn-primary btn-lg inPlay" id="deal">Battle</button>
+    <button type=button class="btn btn-primary btn-lg inPlay" id="back">Back to Menu</button>
+    <button type=button class="inPlay" id="war">WAR</button>
+  </header>
+
+  <section class="inPlay">
+    <div id="stack p1" class="xlarge card back"></div>
+    <div id="play1" class="xlarge card back"></div>
+    <div id="play2" class="xlarge card back"></div>
+    <div id="stack p2" class="xlarge card back"></div>
+  </section>
+  <footer class="inPlay">
+    <div id="progress">
+      <div id="score1"></div>
+      <div id="score2"></div>
+      <div><img src="https://openclipart.org/image/2400px/svg_to_png/252171/bomb.png" id="bomb"></div>
+    </div>
+  </footer>
+</body>
+</html>
